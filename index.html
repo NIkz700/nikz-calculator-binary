@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <marquee class="running-text">WELCOME TO THE FUTURISTIC BINARY CALCULATOR BY NIKO JAY SEDAN. SOURCE CHATGPT+PRO. GUTHUB MEMBER: NOOB JAY </marquee>
+        <div class="fixed-text">BETA TEST LANG MUNA UPDATE NATIN MGA KA CSS KAPAG MAY ERROR</div>
+    </div>
+
+    <h1>Binary Calculator</h1>
+
+    <label for="binary1">Binary Value 1:</label>
+    <input type="text" id="binary1" placeholder="Enter binary value">
+
+    <label for="binary2">Binary Value 2:</label>
+    <input type="text" id="binary2" placeholder="Enter binary value">
+
+    <select id="operation">
+        <option value="-">Subtract</option>
+    </select>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+    <div id="solutionSteps"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
